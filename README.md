@@ -42,7 +42,8 @@ plt.imshow(gray_image, cmap='gray')
 plt.title('Original Grayscale Image')
 plt.axis('off')
 ```
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/2ee4066d-351f-41e6-b0f0-0c2f78ff1e4e)
+
 
 # Histogram of Grayscale Image
 ```
@@ -51,7 +52,7 @@ plt.plot(hist_original, color='black')
 plt.title('Original Histogram')
 plt.xlim([0, 256])
 ```
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/b84be879-274f-4a49-8ace-d4ce981b8f85)
 
 # Equalization
 ```
@@ -61,7 +62,8 @@ plt.imshow(equalized_image, cmap='grey')
 plt.title('Equalized Image')
 plt.axis('off')
 ```
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/5cc9a6ed-adc8-4ce8-89c5-926f536a526e)
+
 # Equalized Histogram
 ```
 hist_original = cv2.calcHist([equalized_image], [0], None, [256], [0, 256])
@@ -69,8 +71,7 @@ plt.plot(hist_original, color='black')
 plt.title('Equalized Histogram')
 plt.xlim([0, 256])
 ```
-![alt text](image-3.png)
-
+![image](https://github.com/user-attachments/assets/5320d3a3-eb26-4649-b96a-fa2da34a590d)
 
 
 
